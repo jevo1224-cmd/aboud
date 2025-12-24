@@ -2,7 +2,9 @@
 export const APP_NAME = "ABOUD STORE";
 
 // --- إعدادات الربط السحابي (Supabase) ---
-// قم بإنشاء مشروع مجاني على supabase.com وانسخ البيانات هنا
+// 1. اذهب إلى supabase.com وأنشئ مشروعاً مجانياً.
+// 2. من إعدادات المشروع (Settings > API)، انسخ الرابط والمفتاح وضعهما هنا.
+// 3. تأكد من تفعيل "Realtime" لجدول models في لوحة تحكم Supabase.
 export const SUPABASE_URL = ""; 
 export const SUPABASE_ANON_KEY = "";
 // ---------------------------------------
